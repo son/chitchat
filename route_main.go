@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/son/chitchat/data"
 	"html/template"
 	"net/http"
-	"github.com/son/chitchat/data"
 )
 
 // HTMLを生成してResponseWriterに書き出してる
