@@ -4,6 +4,7 @@ import (
 	"go/ast"
 	"net/http"
 	"time"
+	"github.com/son/chitchat/data"
 )
 
 func authenticate(w http.ResponseWriter, r *http.Request) {

@@ -3,7 +3,7 @@ package main
 import (
 	"html/template"
 	"net/http"
-	"data"
+	"github.com/son/chitchat/data"
 )
 
 // HTMLを生成してResponseWriterに書き出してる
